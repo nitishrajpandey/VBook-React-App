@@ -7,7 +7,7 @@ function Post({ postItem }) {
 
   return (
     <>
-      <div className="border border-black max-w-[500px] p-3 mb-5 rounded-lg relative ">
+      <div className="border border-[#e7e4e4] shadow-lg outline-none max-w-[500px] p-3 mb-5 rounded-lg relative ">
         <span
           className=" absolute right-[-20px] z-10 top-[-5px]  px-3 py-1  bg-[#661d1d] rounded-2xl text-white font-semibold active:scale-95 duration-300 ease-in-out"
           onClick={() => deletePost(postItem.id)}
